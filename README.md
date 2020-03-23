@@ -4,7 +4,7 @@ Karabiner-Elements complex ruleset to make using Mac OS more sane by enabling co
 ## Installation
 Copy and paste the following URL into your browser window and Karabiner-Elements *should* ask to install the file:
 
-    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/rux616/karabiner-windows-mode/master/windows_shortcuts.json
+    karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/preetsaimutneja/karabiner-windows-mode/master/windows_shortcuts.json
 
 ## List of Shortcuts
 First, a note about how these shortcuts are named in Karabiner-Elements. They follow the convention
@@ -60,10 +60,7 @@ Excepted Applications:
 | C | Ctrl+Shift | C | Command | Only applies to Terminal Emulators. |
 | F | Ctrl | F | Command |  |
 | I | Ctrl | I | Command |  |
-| L | Win | (Shell Command) |  | Use only 1 Win+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
-| L | Win | Power | Control+Shift | Use only 1 Win+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
-| L | Alt+Ctrl | (Shell Command) |  | Use only 1 Alt+Ctrl+L shortcut. Invokes Login Window. Turn on [Fast User Switching](https://support.apple.com/kb/PH25396) first. Executes `/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend`. Works in Excepted Applications. |
-| L | Alt+Ctrl | Power | Control+Shift | Use only 1 Alt+Ctrl+L shortcut. Invokes Lock Screen. Note that the screen doesn't always fully lock right away. Works in Excepted Applications. |
+| L | Ctrl | L | Command |  |
 | N | Ctrl | N | Command |  |
 | O | Ctrl | O | Command |  |
 | P | Ctrl | P | Command |  |
