@@ -16,6 +16,7 @@ so they should be easy(ish) to understand. Contact me if you have improvement su
 There are some applications, such as terminal emulators and virtual machines, that should receive raw inputs and handle them themselves. To that end, almost all shortcuts no longer apply to these applications. As such, the notes will no longer specify that the specific shortcut does not apply to the excepted applications as that is now the default state. Instead, they will note when a shortcut still applies.
 
 Excepted Applications:
+* All chrome apps
 * Terminal Emulators
   * Hyper
   * iTerm2
