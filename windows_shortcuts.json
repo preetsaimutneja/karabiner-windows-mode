@@ -1114,6 +1114,60 @@
 
 
     {
+      "description": ", (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "comma",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "comma",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.google\\.Chrome\\.app.*"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+
+    {
+      "description": ". (Ctrl)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "period",
+            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+          },
+          "to": [{
+              "key_code": "period",
+              "modifiers": ["command"]
+          }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.google\\.Chrome\\.app.*"
+              ]
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+
+    {
       "description": "/ (Ctrl)",
       "manipulators": [
         {

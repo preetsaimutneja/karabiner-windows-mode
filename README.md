@@ -79,6 +79,8 @@ Excepted Applications:
 ### Punctuation Keys
 | Input Key | Input Modifier(s) | Output Key | Output Modifier(s) | Notes |
 |-|-|-|-|-|
+| , | Ctrl | , | Command | Works in Terminal Emulators. |
+| . | Ctrl | . | Command | Works in Terminal Emulators. |
 | / | Ctrl | / | Command | Works in Terminal Emulators. |
 
 ### Function Keys
