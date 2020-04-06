@@ -530,6 +530,14 @@
           "to_if_alone": [{
             "key_code": "launchpad"
           }],
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.google\\.Chrome\\.app.*"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
